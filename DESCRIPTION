@@ -1,0 +1,14 @@
+Package: OEHcolours
+Title: Use OEH corporate colours with ggplot.
+Version: 0.1
+Authors@R: person("Michael", "Bedward", email = "michael.bedward@gmail.com", role = c("aut", "cre"))
+Description: Provides colours defined in the OEH Brand Guidelines document together
+  with palette and scale functions to use with ggplot.
+Depends: R (>= 3.4.0)
+Imports:
+  ggplot2,
+  stringr
+License: Public domain
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
