@@ -7,7 +7,7 @@
 #' @export
 #'
 theme_oeh <- function() {
-  theme_bw(base_size = 12) %+replace%
+  theme_bw(base_size = 12, base_family = "sans") %+replace%
 
     theme(panel.grid.major = element_blank(),
           panel.grid.minor = element_blank(),
