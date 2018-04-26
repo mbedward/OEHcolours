@@ -67,3 +67,32 @@ scale_fill_oeh <- function(palette = "mixed", discrete = TRUE, reverse = FALSE, 
     scale_fill_gradientn(colours = pal(256), ...)
   }
 }
+
+
+#' Discrete colour scale for plot treatments.
+#'
+#' @export
+#'
+scale_colour_treatment <- function(
+  name = "Plot treatment",
+  breaks = c("control", "moderate", "heavy"),
+  values = unname(oeh_colours("sea3", "sun3", "sun1")),
+  ...) {
+
+  scale_colour_manual(name = name, breaks = breaks, values = values, ...)
+}
+
+
+#' Discrete fill scale for plot treatments.
+#'
+#' @export
+#'
+scale_fill_treatment <- function(
+  name = "Plot treatment",
+  breaks = c("control", "moderate", "heavy"),
+  values = unname(oeh_colours("sea3", "sun3", "sun1")),
+  ...) {
+
+  scale_fill_manual(name = name, breaks = breaks, values = values, ...)
+}
+
