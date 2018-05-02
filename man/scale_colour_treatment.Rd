@@ -5,8 +5,8 @@
 \title{Discrete colour scale for plot treatments.}
 \usage{
 scale_colour_treatment(name = "Plot treatment", breaks = c("control",
-  "moderate", "heavy"), values = unname(oeh_colours("sea3", "sun3", "sun1")),
-  ...)
+  "moderate", "heavy"), values = unname(oeh_colours("black", "earth3",
+  "earth1")), ...)
 }
 \description{
 Discrete colour scale for plot treatments.

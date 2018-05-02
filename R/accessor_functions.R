@@ -23,7 +23,7 @@ oeh_colours <- function(...) {
 
     # Check that requested colours are valid
     names <- str_extract(clrs, "^[a-z]+")
-    flag <- names %in% c("sun", "earth", "sea")
+    flag <- names %in% c("sun", "earth", "sea", "black")
     if (!all(flag)) stop("Unknown colour: ", clrs[!flag])
 
     # Check for trailing digits

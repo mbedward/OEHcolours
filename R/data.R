@@ -18,5 +18,6 @@
 #' \item{sun}{Colours "sun1", "sun2", "sun3"}
 #' \item{earth}{Colours "earth1", "earth2", "earth3"}
 #' \item{sea}{Colours "sea1", "sea2", "sea3"}
+#' \item{neutral}{Colours "neutral1", "neutral2", "neutral3"}
 #' }
 "OEH_PALETTES"

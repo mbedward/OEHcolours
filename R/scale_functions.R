@@ -76,7 +76,7 @@ scale_fill_oeh <- function(palette = "mixed", discrete = TRUE, reverse = FALSE, 
 scale_colour_treatment <- function(
   name = "Plot treatment",
   breaks = c("control", "moderate", "heavy"),
-  values = unname(oeh_colours("sea3", "sun3", "sun1")),
+  values = unname(oeh_colours("black", "earth3", "earth1")),
   ...) {
 
   scale_colour_manual(name = name, breaks = breaks, values = values, ...)
@@ -90,7 +90,7 @@ scale_colour_treatment <- function(
 scale_fill_treatment <- function(
   name = "Plot treatment",
   breaks = c("control", "moderate", "heavy"),
-  values = unname(oeh_colours("sea3", "sun3", "sun1")),
+  values = unname(oeh_colours("black", "earth3", "earth1")),
   ...) {
 
   scale_fill_manual(name = name, breaks = breaks, values = values, ...)
