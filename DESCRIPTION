@@ -1,9 +1,12 @@
 Package: OEHcolours
 Title: Use OEH corporate colours with ggplot.
-Version: 0.1
-Authors@R: person("Michael", "Bedward", email = "michael.bedward@gmail.com", role = c("aut", "cre"))
+Version: 0.2
+Authors@R: c(
+  person("Emma", "Gorrod", email = "emma.gorrod@environment.nsw.gov.au", role = c("aut", "cre")),
+  person("Michael", "Bedward", email = "michael.bedward@gmail.com", role = c("aut")) )
 Description: Provides colours defined in the OEH Brand Guidelines document together
-  with palette and scale functions to use with ggplot.
+  with palette and scale functions to use with ggplot. Intended for use with graphs related
+  to the River Red Gum Ecological Thinning experiment.
 Depends: R (>= 3.4.0)
 Imports:
   ggplot2,

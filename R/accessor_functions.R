@@ -42,8 +42,7 @@ oeh_colours <- function(...) {
 
 #' Returns a function to interpolate an OEH colour palette
 #'
-#' @param palette Character name of palette in OEH_PALETTES. One of "mixed", "sun",
-#'   "earth", "sea".
+#' @param palette Character name of palette in OEH_PALETTES.
 #'
 #' @param reverse Boolean indicating whether the palette should be reversed.
 #'
@@ -51,7 +50,8 @@ oeh_colours <- function(...) {
 #'
 #' @export
 #'
-oeh_palette <- function(palette = "mixed", reverse = FALSE, ...) {
+oeh_palette <- function(palette = names(OEH_PALETTES), reverse = FALSE, ...) {
+  palette <- match.arg(palette)
   pal <- OEH_PALETTES[[palette]]
   if (is.null(pal)) stop("Invalid palette name: ", palette)
 

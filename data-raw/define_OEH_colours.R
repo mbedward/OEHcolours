@@ -21,7 +21,7 @@ OEH_COLOURS <- c(
   `black1` = "#000000"
 )
 
-devtools::use_data(OEH_COLOURS, overwrite = TRUE)
+usethis::use_data(OEH_COLOURS, overwrite = TRUE)
 
 
 # Colour palettes
@@ -37,5 +37,5 @@ OEH_PALETTES <- list(
   `neutral` = oeh_colours("neutral1", "neutral2", "neutral3")
 )
 
-devtools::use_data(OEH_PALETTES, overwrite = TRUE)
+usethis::use_data(OEH_PALETTES, overwrite = TRUE)
 
